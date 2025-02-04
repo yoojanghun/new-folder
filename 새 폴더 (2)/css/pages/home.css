@@ -56,14 +56,14 @@
     border-bottom-left-radius: 0;
     background-color: #FDAF66;
     position: absolute;
-    right: 15px;
+    right: 5%;
 }
 
 .home-header__account,
 .home-header__orders{
     display: flex;
     flex-direction: column;
-    padding: 0 15px;
+    padding: 0 10px;
     box-sizing: border-box;
 }
 .home-header__account{
@@ -87,6 +87,7 @@
 
 .home-header__cart{
     position: relative;
+    padding:0 10px;
 }
 .home-header__cart-count{
     position: absolute;
@@ -103,7 +104,7 @@
     align-items: center;
     padding: 0 20px;
     height: 40px;
-    min-width: 1034px;
+    min-width: 1000px;
 }
 .home-header__nav-list{
     margin: 0;
