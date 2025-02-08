@@ -4,6 +4,10 @@
 }
 .home-main{
     padding-top: 100px;
+}
+
+.home-main__display:first-child,
+.home-main__display:nth-child(2){
     max-width: 1500px;
     min-width: 1000px;
     margin: 0 auto;
@@ -12,6 +16,7 @@
 .home-main__display:first-child{
     position: relative;
     width: 100%;
+    height: 300px;
 }
 .home-main__display:first-child img{
     width: 100%;
@@ -31,17 +36,17 @@
 
 .home-main__display:nth-child(2){
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
     gap: 15px;
-    position: relative;
-    top: -140px;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .home-main__category{
     background-color: white;
-    width: 23%;
+    width: 24%;
     height: 420px;
     padding: 20px;
     box-sizing: border-box;
@@ -51,9 +56,9 @@
 }
 
 
-@media (max-width: 1270px){
+@media screen and (max-width: 1270px){
     .home-main__category{
-        width: 30%;
+        width: 32%;
     }
 }
 
@@ -77,14 +82,20 @@
     height: 100%;
 }
 
-.home-main__category-item .img-sm{
-    height: 80%;
-}
-
 .home-main__category-row{
     display: flex;
     gap: 15px;
     height: 40%;
+}
+.home-main__category-row:first-child{
+    margin-bottom: 30px;
+}
+.category-sm{
+    gap: 5px;
+    height: 30%;
+}
+.category-lg{
+    height: 90%;
 }
 
 .home-main__category > a{
@@ -92,10 +103,61 @@
     position: absolute;
     bottom: 15px;
 }
-.no-gap{
-    gap: 5px;
+
+.home-main__best{
+    width: 100%;
+    height: 285px;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.home-main__best-title{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 21px;
 }
 
-.home-main__category-row:first-child{
-    margin-bottom: 30px;
+.home-main__best-list{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+}
+.home-main__best-list img{
+    height: 100%;
+    width: 18%;
+}
+
+.home-main__display:last-child{
+    width: 100vw;
+    height: 210px;
+    background-color: white;
+    margin-top: 25px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    min-width: 1000px;
+}
+
+.home-main__login{
+    border-top: 1px solid hsla(0, 0%, 0%, 0.2);
+    border-bottom: 1px solid hsla(0, 0%, 0%, 0.2);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-main__login-title{
+    font-size: 25px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.home-main__login-btn{
+    height: 30px;
+    background-color: #FFD814;
+    border: none;
+    border-radius: 15px;
+    width: 450px;
+    margin-bottom: 10px;
 }
