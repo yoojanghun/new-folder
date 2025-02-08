@@ -1,0 +1,123 @@
+.home-header{
+    position: fixed;
+    width: 100%;
+    color: white;
+    top: 0;
+    z-index: 99;
+}
+.home-header__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #131921;
+    padding: 0 20px;
+    min-width: 1000px;
+}
+
+.home-header__location{
+    display: flex;
+    min-width: 160px;
+}
+.home-header__location-icon{
+    margin-right: 5px;
+    margin-top: 9px;
+}
+.home-header__location-icon i{
+    font-size: 15px;
+}
+.home-header__location-text{
+    display: flex;
+    flex-direction: column;
+}
+.home-header__location-deliver{
+    font-size: 10px;
+}
+.home-header__location-country{
+    font-size: 15px;
+}
+
+.home-header__search-form{
+    width: 60%;
+    position: relative;
+    padding: 0 20px;
+    flex: 1;
+}
+.home-header__search-input{
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 5px;
+    width: 98%;
+    border: none;
+}
+.home-header__search-button{
+    border: none;
+    height: 42px;
+    width: 45px;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #FDAF66;
+    position: absolute;
+    right: 2%;
+}
+
+.home-header__account,
+.home-header__orders{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.home-header__account{
+    min-width: 150px;
+}
+.home-header__account-greeting,
+.home-header__orders-returns{
+    font-size: 10px;
+}
+.home-header__account-lists,
+.home-header__orders-orders{
+    font-size: 15px;
+}
+.home-header__account-lists i{
+    margin-left: 2px;
+    color: grey;
+}
+.home-header__orders{
+    min-width: 100px;
+}
+
+.home-header__cart{
+    position: relative;
+    padding:0 10px;
+}
+.home-header__cart-count{
+    position: absolute;
+    color: orange;
+    font-weight: 700;
+    top: -10px;
+    right: 17px;
+    font-size: 1.5em;
+}
+
+.home-header__nav{
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 40px;
+    min-width: 1000px;
+}
+.home-header__nav-list{
+    margin: 0;
+    display: flex;
+    font-size: 14px;
+}
+.home-header__nav-item{
+    margin-right: 15px;
+}
+a{
+    color: white;
+}
