@@ -47,9 +47,6 @@
     box-sizing: border-box;
 }
 
-.home-main__category > a{
-    color: blue;
-}
 
 @media (max-width: 1270px){
     .home-main__category{
@@ -60,8 +57,7 @@
 .home-main__category-title{
     margin: 0;
     font-size: 21px;
-    height: 10%;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
 }
 .home-main__category-items{
     width: 100%;
@@ -77,11 +73,22 @@
     height: 100%;
 }
 
+.home-main__category-item .img-sm{
+    height: 80%;
+}
 
 .home-main__category-row{
     display: flex;
     gap: 15px;
-    height: 130px;
+    height: 40%;
+}
+
+.home-main__category > a{
+    color: blue;
+    
+}
+.no-gap{
+    gap: 5px;
 }
 
 .home-main__category-row:first-child{
