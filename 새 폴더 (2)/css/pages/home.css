@@ -73,20 +73,22 @@
     margin-bottom: 15px;
     flex: 1;
 }
-.home-main__category-item{
-    width: 100%;
-    height: 100%;
-}
-.home-main__category-item img{
-    width: 100%;
-    height: 100%;
-}
-
 .home-main__category-row{
     display: flex;
     gap: 15px;
     height: 40%;
 }
+.home-main__category-item{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.home-main__category-item img{
+    min-height: 100%;
+    width: 100%;
+}
+
 .home-main__category-row:first-child{
     margin-bottom: 30px;
 }
