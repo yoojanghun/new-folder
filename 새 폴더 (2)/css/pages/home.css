@@ -163,3 +163,12 @@
     width: 450px;
     margin-bottom: 10px;
 }
+
+
+.home-footer{
+    width: 100%;
+    height: 420px;
+    background-color: #232F3E;
+    color: white;
+}
+

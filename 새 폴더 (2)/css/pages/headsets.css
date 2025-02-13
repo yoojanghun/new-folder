@@ -1,0 +1,120 @@
+.headsets-main{
+    padding: 0 15px;
+    padding-top: 120px;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+}
+.headsets-main__filter{
+    width: 15%;
+    min-width: 200px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.headsets-main__filter-brands{
+    margin-bottom: 30px;
+    border-bottom: 1px solid hsla(0, 0%, 0%, 0.2);
+    box-sizing: border-box;
+}
+.headsets-main__filter-title{
+    margin: 0;
+    margin-bottom: 10px;
+}
+.headsets-main__filter-list{
+    margin-bottom: 30px;
+}
+.headsets-main__filter-item{
+    margin: 5px 0;
+}
+
+
+.headsets-main__products{
+    width: 85%;
+    min-width: 800px;
+}
+
+.headsets-main__title{
+    margin: 0;
+    margin-bottom: 5px;
+}
+.headsets-main__description{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.headsets-main__product{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.headsets-main__product img{
+    width: 290px;
+    height: 360px;
+    margin-right: 20px;
+}
+
+.headsets-main__product-details{
+    width: 70%;
+}
+
+.headsets-main__product-title{
+    margin: 10px 0;
+    width: 1000px;
+    font-weight: 400;
+}
+
+.headsets-main__product-reviews{
+    display: flex;
+    flex-direction: column;
+}
+
+.headsets-main__product-review{
+    font-weight: 700;
+}
+
+.headsets-main__product-stars{
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+.headsets-main__product-stars i:nth-child(-n+4){
+    color: orange;
+}
+.headsets-main__product-stars .fa-chevron-down{
+    margin-right: 5px;
+}
+.headsets-main__product-stars span:last-child{
+    color: blue;
+}
+.headsets-main__product-info{
+    opacity: 0.6;
+}
+
+.headsets-main__product-price{
+    margin-top: 10px;
+}
+.headsets-main__product-current{
+    font-size: 2em;
+    margin-right: 5px;
+}
+
+.headsets-main__product-past{
+    text-decoration: line-through;
+}
+
+.headsets-main__product-delivery{
+    width: 290px;
+    margin-bottom: 10px;
+}
+
+.headsets-main__product-purchase{
+    width: 87px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    font-size: 13px;
+    background-color: #FFD814;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
